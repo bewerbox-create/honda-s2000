@@ -130,12 +130,48 @@
 
   <!-- ============ W RUCHU ============ -->
   <div style="background:#0f0f0f;padding:64px 6vw;box-sizing:border-box;border-top:1px solid #2a2a2a;border-bottom:1px solid #2a2a2a;">
-    <div style="max-width:760px;margin:0 auto;text-align:center;">
+    <div style="max-width:960px;margin:0 auto;text-align:center;">
       <div style="font-family:'Bebas Neue',sans-serif;font-size:38px;letter-spacing:2px;color:#f4b400;margin-bottom:10px;">W RUCHU</div>
       <div style="color:#a8a8a8;font-size:15px;margin-bottom:28px;">Bo zdjęcia to jedno, a dźwięk wysoko kręconej &bdquo;czwórki&rdquo; bez turbo to drugie.</div>
-      <video controls playsinline preload="metadata" poster="images/video-poster.jpg" style="width:100%;max-width:380px;border:1px solid #2a2a2a;display:block;margin:0 auto;background:#000;">
-        <source src="video/highlight.mp4" type="video/mp4">
-      </video>
+
+      <div style="display:flex;flex-wrap:wrap;gap:24px;justify-content:center;margin-bottom:36px;">
+        <div style="flex:1 1 280px;max-width:380px;">
+          <video controls playsinline preload="metadata" poster="images/original-clip-poster.jpg" style="width:100%;border:1px solid #2a2a2a;display:block;background:#000;">
+            <source src="video/s2000-drive.mp4" type="video/mp4">
+          </video>
+          <div style="font-size:12px;color:#7a7a7a;margin-top:8px;">Krótkie ujęcie z jazdy</div>
+        </div>
+        <div style="flex:1 1 280px;max-width:380px;">
+          <video controls playsinline preload="metadata" poster="images/video-poster.jpg" style="width:100%;border:1px solid #2a2a2a;display:block;background:#000;">
+            <source src="video/highlight.mp4" type="video/mp4">
+          </video>
+          <div style="font-size:12px;color:#7a7a7a;margin-top:8px;">Highlight reel &mdash; złożenie najlepszych ujęć</div>
+        </div>
+      </div>
+
+      <div style="font-size:12px;letter-spacing:3px;color:#8f8f8f;margin-bottom:16px;">WIĘCEJ UJĘĆ</div>
+      <div class="gallery-grid" style="display:grid;gap:14px;">
+        <div>
+          <video controls playsinline preload="metadata" poster="images/clip-1-poster.jpg" style="width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:#000;">
+            <source src="video/clip-1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div>
+          <video controls playsinline preload="metadata" poster="images/clip-2-poster.jpg" style="width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:#000;">
+            <source src="video/clip-2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div>
+          <video controls playsinline preload="metadata" poster="images/clip-3-poster.jpg" style="width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:#000;">
+            <source src="video/clip-3.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div>
+          <video controls playsinline preload="metadata" poster="images/clip-4-poster.jpg" style="width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:#000;">
+            <source src="video/clip-4.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
     </div>
   </div>
 
